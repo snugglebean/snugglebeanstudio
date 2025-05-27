@@ -9,7 +9,7 @@
     body {
       margin: 0;
       font-family: 'Nunito', sans-serif;
-      background-color: #ffe6f0;
+      background-color: #fddbef; /* matched logo light pink */
       color: #333;
     }
     header {
@@ -41,8 +41,8 @@
     }
     .content {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
       padding: 2rem;
     }
     .card {
@@ -50,7 +50,8 @@
       border-radius: 15px;
       padding: 1rem;
       margin: 1rem;
-      width: 250px;
+      width: 80%;
+      max-width: 500px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     .card h3 {
@@ -86,18 +87,8 @@
   </section>
 
   <section id="patterns" class="content">
-    <div class="card">
-      <h3>Beanie Buddies</h3>
-      <p>Adorable plushy hats for all ages. Beginner-friendly!</p>
-    </div>
-    <div class="card">
-      <h3>Crochet Critters</h3>
-      <p>Cute animal patterns perfect for gifting and collecting.</p>
-    </div>
-    <div class="card">
-      <h3>Snuggle Blankets</h3>
-      <p>Soft, warm throws in playful patterns and pastel hues.</p>
-    </div>
+    <h2 style="color: #d63384; font-size: 2rem;">Patterns</h2>
+    <p style="font-size: 1.2rem; color: #555;">Coming soon...</p>
   </section>
 
   <section id="about" class="content">
@@ -127,4 +118,3 @@
   </footer>
 </body>
 </html>
-
